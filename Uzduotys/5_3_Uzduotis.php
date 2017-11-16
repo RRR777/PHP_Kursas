@@ -1,8 +1,6 @@
 <!-- Duotas masyvas array(-10, 0, 2, 9, -5). 
 Atspausdinkite masyvo elementus mažėjimo tvarka. 
-
 -->
-
 
 <?php
 	$arrayData = array(-4, 15, 7, 12, -2);
