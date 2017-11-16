@@ -18,5 +18,5 @@ Skaliarinė sandauga: tai masyvo elementų (su tais pačiais indeksais) sandaug�
         $San = $a[$i] * $b[$i];
         $suma = $suma + $San;
     }   
-    echo "Skaliarinio masyvo suma yra: " .$suma;
+    echo "Skaliarinė masyvo sandauga yra: " .$suma;
 ?>
