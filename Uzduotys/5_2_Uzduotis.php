@@ -19,7 +19,7 @@ Apskaičiuokite ir atspausdinkite šių trikampių plotus-->
 		$b = $arrayData[$i][++$j];
 		$c = $arrayData[$i][++$j];
 
-		if ($a + $b != $c && $a + $c != $b && $b + $c != $a){
+		if ($a + $b > $c && $a + $c > $b && $b + $c > $a){
 			if ($a == $b && $b == $c){
 				echo "Šis trikampis yra lygiakraštis: " .$a ." " .$b ." ".$c;
 				echo '<br />';
