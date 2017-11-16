@@ -19,7 +19,7 @@
     
     
     function vidurkis ($m){
-        $n = count($m);					//skaičiuoja Masyvo $arrayData elementų skaičių
+        $n = count($m);					//skaičiuoja Masyvo elementų skaičių
         $suma = 0;
 
         for ($i = 0; $i < $n; $i++){
