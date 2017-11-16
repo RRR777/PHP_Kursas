@@ -6,9 +6,6 @@ duomenis panaudokite tokius skaičius:
 2, 10, 8 
 5, 6, 5 
 5, 5, 5 
-
-
-
 -->
 
 <?php
