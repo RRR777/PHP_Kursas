@@ -12,13 +12,10 @@ yra laikomos skirtingomis. -->
 
     $a = ["Jonas", "Petras", "Antanas", "Povilas"];
 
-    $n = count($a);
-    for ($i=0; $i<$n; $i++) {
-        $first = $a[$i];
-        for ($j=$i; $j<$n; $j++) {
-            $second = $a[$j];
-            if ($first != $second){
-                echo $first ." - " .$second ." <br> ";
+    for ($i=0; $i<count($a); $i++) {
+        for ($j=$i; $j<count($a); $j++) {
+            if ([$i] !== [$j]){
+                echo $a[$i] ." - " .$a[$j] ." <br> ";
             }
         }
     }        
@@ -31,12 +28,10 @@ yra laikomos skirtingomis. -->
 
     $a = ["Jonas", "Petras", "Antanas", "Povilas"];
 
-    foreach ($a as $key => $value) {
-        $first = $value;
-        foreach ($a as $key => $value) {
-            $second = $value;
-            if ($first != $second){
-                echo $first ." - " .$second ." <br> ";
+    foreach ($a as $key1 => $value1) {
+        foreach ($a as $key2 => $value2) {
+            if ($key1 != $key2){
+                echo $value1 ." - " .$value2 ." <br> ";
             }
         }
     }
