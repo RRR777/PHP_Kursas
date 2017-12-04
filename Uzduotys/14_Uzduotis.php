@@ -76,7 +76,7 @@ echo "Puslapiai: ";
 for ($i=1; $i<=$total_pages; $i++) {  // print links for all pages
             echo "<a href='14_Uzduotis.php?page=".$i."'";
             if ($i==$page)  echo " class='curPage'";
-            echo ">" .$i ."</a>" . " ... "; 
+            echo ">" .$i ."</a> ... "; 
 }; 
 
 $conn->close();
