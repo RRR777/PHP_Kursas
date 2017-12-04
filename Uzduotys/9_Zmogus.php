@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>9 Uzduotis Zmogus</title>
+        <meta charset="UTF-8">
+    </head>
+<body>
 <?php 
 class Zmogus{
     public $vardas;
@@ -13,20 +20,11 @@ class Zmogus{
     }
 }
 
-/* $zmogus1 = new Zmogus('Rasa', 'Jurkute');
-$zmogus2 = new Zmogus('Greta', 'Tarasovaite');
-$zmogus3 = new Zmogus('Vytas', 'Subacius');
-
-$zmones = [$zmogus1, $zmogus2, $zmogus3];
-
-arba
- */
 $zmones = [
     new Zmogus('Rasa', 'Jurkute'),
     new Zmogus('Greta', 'Tarasovaite'),
     new Zmogus('Vytas', 'Subacius')
 ]
-
 ?>
 <h1>Žmonių sąraše yra: <?php echo count($zmones);?></h1>
     <?php if ($zmones): ?>
@@ -45,6 +43,5 @@ $zmones = [
     <?php else: ?>
       <p>Nėra duomenų</p>
     <?php endif; ?>
-    <br><br>
-    <?php 
-?>
+</body>
+</html>
