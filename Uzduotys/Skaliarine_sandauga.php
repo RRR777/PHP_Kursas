@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>10 Uzduotis</title>
+        <title>Skaliarine sandauga</title>
         <meta charset="UTF-8">
     </head>
 <body>
