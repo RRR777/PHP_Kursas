@@ -1,4 +1,11 @@
- <?php 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>10 Uzduotis</title>
+        <meta charset="UTF-8">
+    </head>
+<body>
+<?php 
  /* #10 - Uždavinys - Papildykite Mokinys klasę tekstiniu atributu gimimoData,
   t.y. jo reikšmė bus pvz ‘2001-10-31’. Sukurkite Mokinys klasei metodą, 
   kuris grąžintų sveiką skaičių kiek mokiniui yra metų, pvz. 17 (16,5 → 16). 
@@ -60,3 +67,5 @@ $mokiniai = [
       <p>Nėra duomenų.</p>
     <?php endif; ?>
     <br><br>
+ </body>
+</html>

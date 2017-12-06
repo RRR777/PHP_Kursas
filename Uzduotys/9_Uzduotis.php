@@ -1,4 +1,11 @@
- <?php 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>9 Uzduotis</title>
+        <meta charset="UTF-8">
+    </head>
+<body> 
+<?php 
  /* Tarkime turime masyvą objektų Mokinys. Reikia atspausdinti mokinių vardus 
  ir pavardes su jų trimestro vidurkiu į html lentelę vidurkio mažėjimo tvarka.
  // masyvas mokinio trimestro pažymių
@@ -60,3 +67,5 @@ $mokiniai = [
       <p>Nėra duomenų</p>
     <?php endif; ?>
     <br><br>
+ </body>
+</html>

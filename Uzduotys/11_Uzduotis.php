@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>9 Uzduotis</title>
+        <meta charset="UTF-8">
+    </head>
+<body> 
 <?php
 #   11 - Uždavinys
 #   Panaudokime klasę Radar. Reikia susikurti metodą, kuris 
@@ -92,4 +99,6 @@ $auto = [
       <p>Nėra duomenų.</p>
     <?php endif; ?>
     <br><br>
+   </body>
+</html>
 

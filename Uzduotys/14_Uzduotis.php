@@ -31,7 +31,7 @@ if (isset($_GET['page'])) {
 
 $start_from = ($page-1) * $results_per_page;
 
-$sql = "SELECT `number`, `distance`/`time`*3.6 as `speed`, `date` FROM radars ORDER BY `speed`, `date` DESC LIMIT $start_from, " .$results_per_page;
+$sql = "SELECT `number`, `distance`/`time`*3.6 as `speed`, `date` FROM radars ORDER BY `number`, `date` DESC LIMIT $start_from, " .$results_per_page;
 
 $result = $conn->query($sql);
 
@@ -76,7 +76,7 @@ echo "Puslapiai: ";
 for ($i=1; $i<=$total_pages; $i++) {  // print links for all pages
             echo "<a href='14_Uzduotis.php?page=".$i."'";
             if ($i==$page)  echo " class='curPage'";
-            echo ">" .$i ."</a>" . " ... "; 
+            echo ">" .$i ."</a> ... "; 
 }; 
 
 $conn->close();
