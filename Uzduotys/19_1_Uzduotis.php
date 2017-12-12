@@ -8,6 +8,6 @@ $sql = "SELECT COUNT(DISTINCT number) as kiekis, radars.driverId, name
         LEFT OUTER JOIN drivers on radars.driverId = drivers.driverId
         WHERE drivers.driverId is not null AND radars.driverId != 0  
       	GROUP BY radars.driverId
-        HAVING kiekis
+        HAVING kiekis > 1
         ORDER BY radars.driverId, name";
 ?>
