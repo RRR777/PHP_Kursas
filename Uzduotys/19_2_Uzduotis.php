@@ -3,7 +3,7 @@
 // bent dvi skirtingas dienas
 
 
-$sql = "SELECT COUNT(DISTINCT date) as `kiekis`, radars.driverId, name
+$sql = "SELECT COUNT(DISTINCT Date (date)) as `kiekis`, radars.driverId, name
         FROM radars
         LEFT OUTER JOIN drivers on radars.driverId = drivers.driverId
         WHERE drivers.driverId is not null AND radars.driverId != 0 
